@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .title {
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-style: italic;
+  }
+  
+  .content-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .section-title {
+    color: #333;
+  }
+  
+  .bio-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .achievement-list {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .legacy-text {
+    color: #555;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the content container */
+  .content-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation for the footer text */
+  .footer-text {
+    animation: colorChange 3s infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    from {
+      color: #fff;
+    }
+    to {
+      color: #ffcc00;
+    }
+  }  
